@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Course 1",
+    "description": "Why Python Is Essential for Data Analysis and Data Science",
+    "isAccessGranted": true,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Why-Python-is-Essential-for-Data-Analysis.jpg"
+  },
+  {
+    "title": "Course 2",
+    "description": "What Is Data Analysis: A Comprehensive Guide",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Data_Analysis.jpg"
+  },
+  {
+    "title": "Course 3",
+    "description": "Top 50 AWS Solutions Architect Interview Questions and Answers...",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_AWS_Solutions_Architect_Job_Interview_Questions_and_Answers.jpg"
+  },
+  {
+    "title": "Course 4",
+    "description": "Webinar Wrap-Up: Job Search in the World of AI",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Job_Search_in_the_World_of_AI.jpg"
+  },
+  {
+    "title": "Course 5",
+    "description": "What is AWS DevOps and Tools Required to Develop a Web App...",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_AWS_DevOps_Tools_to_Develop_a_Production_Grade_Web_App.jpg"
+  },
+  {
+    "title": "Course 6",
+    "description": "Project Management Consultant: Job Description, Skills Required, Salary...",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Project_Management_Consultant.jpg"
+  },
+  {
+    "title": "Course 7",
+    "description": "Top Project Management Metrics and Process Measurement Metrics",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/project-and-process-metrics-article.jpg"
+  },
+  {
+    "title": "Course 8",
+    "description": "What Is a Quality Engineer? Job Descriptions, Salaries, and Skills",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_quality_engineer.jpg"
+  },
+  {
+    "title": "Course 9",
+    "description": "DMAIC Process: The 5 Phases of Lean Sigma You Must Know",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Dmaic_Process_The_5_Phases_Of_Lean_Sigma.jpg"
+  },
+  {
+    "title": "Course 10",
+    "description": "15 Cyber Security Tools That Shield You From Online Threats",
+    "isAccessGranted": false,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_9_Cybersecurity_Tools.jpg"
+  }
+]

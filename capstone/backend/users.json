@@ -1,0 +1,5 @@
+[
+    { "email": "admin@example.com", "password": "$2b$10$fkny06f4L5vdZHU8xGti.uEiz3zlcp8drLxVOcpTMNNfknwIiFjSu", "userType": "admin" },
+    { "email": "faculty@example.com", "password": "$2b$10$3AigDU7sSwqWUXWPix1dPuQVH05SM3hqTwyewj5S9o10PfQNqxype", "userType": "faculty" },
+    { "email": "user@example.com", "password": "$2b$10$px8R/O9Mh7uNE5JmsXuUMujOBZhmoKgo5xvagfPmSIbGa5vomA2kG", "userType": "user" }
+]

@@ -1,0 +1,20 @@
+<!-- navbar.component.html -->
+<mat-toolbar color="primary">
+  <div class="left_menu">
+    <span (click)="navigate()">My eLearning App</span>
+    <a mat-button routerLink="/home">Home</a>
+    <a mat-button routerLink="/courses">Courses</a>
+    <a *ngIf="authService.getUserType()==='admin'" mat-button routerLink="/admin">Admin</a>
+    <a *ngIf="authService.getUserType()==='admin'" mat-button routerLink="/access-requests">Access Requests</a>
+  </div>
+  <span class="nav-tool-items">
+    <!-- Display only if the user is not authenticated -->
+    <a mat-button *ngIf="!authService.isAuthenticated()" routerLink="login" routerLinkActive="active">Log in</a>
+
+    <!-- Display only if the user is authenticated -->
+    <a mat-button *ngIf="authService.isAuthenticated()" (click)="logout()">Logout</a>
+
+    <!-- Display only if the user is not authenticated -->
+    <a mat-button *ngIf="!authService.isAuthenticated()" routerLink="register" routerLinkActive="active">Register</a>
+  </span>
+</mat-toolbar>

@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Edit Course</h1>
+<div mat-dialog-content [formGroup]="updateForm">
+  <mat-form-field>
+    <input matInput formControlName="title" placeholder="Title">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput formControlName="image" placeholder="Image Url">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea matInput formControlName="description" placeholder="Description"></textarea>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button (click)="onUpdate()" cdkFocusInitial>Update</button>
+</div>

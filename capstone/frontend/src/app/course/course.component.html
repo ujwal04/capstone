@@ -1,0 +1,30 @@
+<div class="course-container">
+  <div *ngFor="let course of courses" class="course-card mat-elevation-z2">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ course.title }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src={{course.image}} alt="Course Image">
+      <mat-card-content>
+        <p>{{ course.description }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+
+        <button *ngIf="!isAccessGranted(course._id) && isUser()" mat-raised-button color="primary"
+          (click)="requestAccess(course)">
+          Request Access
+        </button>
+        <p *ngIf="isAccessGranted(course._id)" class="access-granted">Access Granted</p>
+        <button *ngIf="isAdmin() || isFaculty()" mat-raised-button color="accent" (click)="openUpdateDialog(course)">
+          Update Course
+        </button>
+        <button *ngIf="isAdmin()" mat-raised-button color="warn" (click)="deleteCourse(course)">
+          Delete Course
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <button *ngIf="isAdmin()" mat-fab color="primary" class="add-course-button" (click)="addCourse()">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>

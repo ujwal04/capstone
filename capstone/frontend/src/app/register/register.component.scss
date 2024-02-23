@@ -1,0 +1,45 @@
+mat-card {
+  max-width: 400px;
+
+  margin: 2em auto;
+
+  text-align: center;
+}
+
+mat-form-field {
+  display: block;
+}
+
+.mat-mdc-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+  width: 55vw;
+  .mat-mdc-card-content {
+    display: block;
+    padding: 0 16px;
+    width: 40vw;
+  }
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 4rem;
+  }
+  button {
+    margin-top: 4vh;
+  }
+}
+
+.mat-mdc-select-trigger {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 7vh;
+}

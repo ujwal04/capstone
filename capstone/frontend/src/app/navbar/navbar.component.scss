@@ -1,0 +1,11 @@
+/* navbar.component.css */
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+.left_menu {
+  span {
+    margin-right: 1vw;
+    cursor: pointer;
+  }
+}
